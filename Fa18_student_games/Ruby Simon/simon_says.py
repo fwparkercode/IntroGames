@@ -45,7 +45,7 @@ click_sound = pygame.mixer.Sound("click.ogg")
 background_music = pygame.mixer.Sound("Beach_01.ogg")
 background_music.play()
 # define lists
-block_pattern = [random.randrange(4), random.randrange(4), random.randrange(4), random.randrange(4)]
+block_pattern = [0, 0, 0, 0]
 player_pattern = []
 
 # Button Class will create the main four sprites.
